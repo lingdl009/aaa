@@ -1,3 +1,4 @@
-items = [('name','gumby'),('age','42')]
-d = dict(items)
-print(d['name'])
+name = ''
+while not name:
+    name = input('请输入名字：')
+print('hello %s!' % name)
